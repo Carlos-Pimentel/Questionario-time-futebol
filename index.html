@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Meu Projeto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head> 
+<body>
+  <h1 id="title">Qual seu time favorito de futebol</h1>
+  <p id="description">Pesquisa focada no futebol brasileiro</p>
+  <form id="survey-form"> 
+    <div class="input-element">
+      <label id="name-label">Insira seu nome completo
+        <input placeholder="nome" id="name" type="text" required>
+      </label>
+    </div>
+    <div class="input-element">
+      <label id="email-label"for="email">Insira seu email
+        <input placeholder="email" id="email" type="email" required>
+      </label>
+    </div>
+    <div class="input-element">
+      <label id="number-label" for="number">Insira sua idade
+        <input placeholder="idade" id="number" type="number" min="1" max="120" required>
+      </label>
+    </div>
+      <label id="select-label"> Qual seu time favorito?</label>
+  <select id="dropdown">
+    <option>América-MG</option>
+    <option>Athletico-PR</option>
+    <option>Atlético-MG</option>
+    <option>Bahia</option>
+    <option>Botafogo</option>
+    <option>Corinthians</option>
+    <option>Coritiba</option>
+    <option>Cruzeiro</option>
+    <option>Cuiabá</option>
+    <option>Flamengo</option>
+    <option>Fluminense</option>
+    <option>Fortaleza</option>
+    <option>Goiás</option>
+    <option>Grêmio</option>
+    <option>Internacional</option>
+    <option>Palmeiras</option>
+    <option>Bragantino</option>
+    <option>Santos</option>
+    <option>São Paulo</option>
+    <option>Vasco da Gama</option>                                
+  </select>
+  <div>
+      <label id="radio-label">Você acha que seu time será rebaixado?</label>
+  </div>
+  <div class="inline">    
+      <label><input type="radio" name="time" value="Sim">Sim</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="radio" name="time" value="Não">Não</label>
+  </div>    
+  <div>
+      <label id="radio-label">Você frequenta os jogos do seu time?</label>
+  </div>
+  <div class="inline">    
+      <label><input type="radio" name="time" value="Sim">Sim</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="radio" name="time" value="Não">Não</label>
+  </div>    
+  <div>
+      <label id="checkbox-label">Qual é o estádio do seu clube?</label>
+  <div class="inline">    
+      <label><input type="checkbox" name="time" value="Estádio Jornalista Mário Filho">Estádio Jornalista Mário Filho</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Cícero Pompeu de Toledo">Estádio Cícero Pompeu de Toledo</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Governador Magalhães Pinto">Estádio Governador Magalhães Pinto</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Arena do Grêmio">Arena do Grêmio</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Governador Plácido Castelo">Estádio Governador Plácido Castelo</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Beira-Rio">Estádio Beira-Rio</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Neo Química Arena">Neo Química Arena</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Arena Fonte Nova">Arena Fonte Nova</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Olímpico Nilton Santos">Estádio Olímpico Nilton Santos</label>
+  </div>    
+ <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Arena MRV">Arena MRV</label>
+  </div>    
+  <div class="inline">  
+      <label><input type="checkbox" name="time" value="Allianz Parque">Allianz Parque</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Arena Pantanal">Arena Pantanal</label>
+  </div>    
+ <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Ligga Arena">Ligga Arena</label>
+  </div>    
+ <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Major Antônio Couto Pereira">Estádio Major Antônio Couto Pereira</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Raimundo Sampaio">Estádio Raimundo Sampaio</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio São Januário">Estádio São Januário</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Urbano Caldeira">Estádio Urbano Caldeira</label>
+  </div>    
+  <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio Nabi Abi Chedid">Estádio Nabi Abi Chedid</label>
+  </div>    
+ <div class="inline"> 
+      <label><input type="checkbox" name="time" value="Estádio de Hailé Pinheiro">Estádio de Hailé Pinheiro</label>
+  </div>
+  <div class="opiniao">
+      <label >De sua opnião atual sobre seu clube
+        <textarea type="text"></textarea>
+      </label>
+  </div>
+      <button id="submit" type="submit">
+        Enviar
+      </button>
+</form>
+</body>
+</html>
